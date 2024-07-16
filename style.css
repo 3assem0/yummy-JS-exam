@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{ */
+    /* background-color: rgba(0, 0, 0, 0.864); */
+/* } */
+nav{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}
+.outernav{
+    /* position: relative; */
+    padding: 15px;
+    color: aliceblue;
+    float: left;
+    width: 250px;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    ul{
+        width: 100%;
+        margin-top: 5%;
+        list-style: none;
+        li{
+            margin-top: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+    }
+}
+.innernav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    float: right;
+    width: 63px;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    img{
+        width: 80px;
+    }
+    span{
+        color: black;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    #icon{
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.864);
+    /* background-color: antiquewhite; */
+    width: 100%;
+   min-height: 100vh;
+   flex-wrap: wrap;
+}
+.col-md-3{
+    position: relative;
+    z-index: 0;
+    /* width: 23%; */
+    background-color: rgba(0, 0, 0, 0);
+    /* height: 250px; */
+    background-color:none;
+    border-radius: 5px;
+}
+
+
+#output{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 16px;
+}
+.btn{
+    margin-top: 10px;
+}

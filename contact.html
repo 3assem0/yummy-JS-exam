@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="img/Untitled - 2024-06-27T013936.086.png"> 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body style=" background-color: rgba(0, 0, 0, 0.864);">
+    
+<nav>
+   
+    <div  class="outernav">
+        <ul>
+            <li><a href="">Search</a></li>
+            <li id="Categories"><a href="index.html">Categories</a></li>
+            <li><a href="">Area</a></li>
+            <li><a href="">Ingredients</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="outerend">
+            <span><i class="fa-brands fa-facebook"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-solid fa-globe"></i></span>
+            <p>Copyright Â© 2019 All Rights
+                Reserved.</p>
+        </div>
+    </div>
+    <div class="innernav">
+        <img src="img/th (6).png" alt="#logo">
+        <span id="list"><i class="fa-solid fa-bars"></i></span>
+        <span class="out d-none"><i class="fa-solid fa-outdent"></i></span>
+        <div class="icons">
+             <span id="icon"><i class="fa-solid fa-globe"></i></span>
+             <span id="icon"><i class="fa-solid fa-share"></i></span>
+         </div>
+    </div>
+</nav>
+    
+    
+<div class="container ">
+    <div class="row py-5 g-4 " id="rowData"><div class="contact min-vh-100 d-flex justify-content-center align-items-center">
+<div class="container w-75 text-center">
+<div class="row g-4">
+    <div class="col-md-6">
+        <input id="nameInput" onkeyup="inputsValidation()" type="text" class="form-control" placeholder="Enter Your Name" fdprocessedid="perona">
+        <div id="nameAlert" class="alert alert-danger w-100 mt-2 d-none">
+            Special characters and numbers not allowed
+        </div>
+    </div>
+    <div class="col-md-6">
+        <input id="emailInput" onkeyup="inputsValidation()" type="email" class="form-control " placeholder="Enter Your Email" fdprocessedid="9c8r6g">
+        <div id="emailAlert" class="alert alert-danger w-100 mt-2 d-none">
+            Email not valid *exemple@yyy.zzz
+        </div>
+    </div>
+    <div class="col-md-6">
+        <input id="phoneInput" onkeyup="inputsValidation()" type="text" class="form-control " placeholder="Enter Your Phone" fdprocessedid="s3a29o">
+        <div id="phoneAlert" class="alert alert-danger w-100 mt-2 d-none">
+            Enter valid Phone Number
+        </div>
+    </div>
+    <div class="col-md-6">
+        <input id="ageInput" onkeyup="inputsValidation()" type="number" class="form-control " placeholder="Enter Your Age" fdprocessedid="7owekl">
+        <div id="ageAlert" class="alert alert-danger w-100 mt-2 d-none">
+            Enter valid age
+        </div>
+    </div>
+    <div class="col-md-6">
+        <input id="passwordInput" onkeyup="inputsValidation()" type="password" class="form-control " placeholder="Enter Your Password" fdprocessedid="3vdfjn">
+        <div id="passwordAlert" class="alert alert-danger w-100 mt-2 d-none">
+            Enter valid password *Minimum eight characters, at least one letter and one number:*
+        </div>
+    </div>
+    <div class="col-md-6">
+        <input id="repasswordInput" onkeyup="inputsValidation()" type="password" class="form-control " placeholder="Repassword" fdprocessedid="xybc6m">
+        <div id="repasswordAlert" class="alert alert-danger w-100 mt-2 d-none">
+            Enter valid repassword 
+        </div>
+    </div>
+</div>
+<button id="submitBtn" onclick="Submit"  class="btn btn-outline-danger px-2 mt-3">Submit</button>
+</div>
+</div> </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
